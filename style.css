@@ -25,9 +25,9 @@ body {
 .break {
   width: 150px;
   line-height: 16px;
-  border: 2px solid dodgerblue;
-  border-radius: 0;
-  padding: 5px 10px;
+  border: 1px solid dodgerblue;
+  border-radius: 10px;
+  padding: 5px;
   font-size: 26px
 }
 
@@ -38,7 +38,8 @@ body {
 }
 
 .controls i {
-  padding: 0 10px
+  padding: 0 10px;
+  cursor: pointer;
 }
 
 .counter {
@@ -63,7 +64,7 @@ body {
 .counter-status {
   font-size: 24px;
   letter-spacing: 2px;
-  text-transform: uppercase;
+  text-transform: uppercase
 }
 
 .timer {
@@ -86,7 +87,8 @@ body {
   font-size: 30px;
   outline: none;
   opacity: 0;
-  transition: .4s
+  transition: .4s;
+  cursor: pointer;
 }
 
 .counter:hover .action {
@@ -111,7 +113,6 @@ body {
     justify-content: space-around;
     margin: 10vh auto
   }
-
 
   .controls-header {
     font-size: 16px
