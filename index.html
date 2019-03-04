@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Licznik efektywnego uczenia</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Fahkwang:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Licznik efektywnego uczenia</h1>
+
+  <div class="controls">
+    <div class="session" id="session">
+      <h2 class="controls-header">Czas nauki</h2>
+      <p>
+        <i class="fas fa-caret-left" id="session-less"></i>
+        <span id="session-time">30</span>
+        <i class="fas fa-caret-right" id="session-more"></i>
+      </p>
+    </div>
+
+    <div class="break" id="break">
+      <h2 class="controls-header">Przerwa</h2>
+      <p>
+        <i class="fas fa-caret-left" id="break-less"></i>
+        <span id="break-time">15</span>
+        <i class="fas fa-caret-right" id="break-more"></i>
+      </p>
+    </div>
+  </div>
+
+  <div class="counter" id="counter">
+    <h2 class="counter-status" id="counter-status">Czas nauki</h2>
+    <p class="timer" id="timer">30:00</p>
+    <button class="action" id="btn">START</button>
+  </div>
+
+  <script src="counter.js"></script>
+</body>
+
+</html>
