@@ -1,4 +1,4 @@
-# Learning Time Counter
+# Study Time Counter
 
 ## Idea - optimal model of study and break cycle
 
