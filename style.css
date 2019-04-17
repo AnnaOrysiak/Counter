@@ -3,7 +3,7 @@
 }
 
 h1 {
-  font-size: 22px
+  font-size: 20px
 }
 
 body {
@@ -15,7 +15,7 @@ body {
 
 .controls {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 80vw;
   margin: 5vh auto 10vh
@@ -23,16 +23,17 @@ body {
 
 .session,
 .break {
-  width: 150px;
-  line-height: 16px;
+  width: 100px;
+  line-height: 12px;
   border: 1px solid dodgerblue;
   border-radius: 10px;
   padding: 5px;
-  font-size: 26px
+  font-size: 20px
 }
 
 .controls-header {
-  font-size: 14px;
+  font-size: 12px;
+  font-weight: normal;
   letter-spacing: 2px;
   text-transform: uppercase
 }
@@ -44,8 +45,8 @@ body {
 
 .counter {
   position: relative;
-  max-width: 300px;
-  line-height: 50px;
+  max-width: 250px;
+  line-height: 40px;
   margin: 0 auto;
   border: 2px solid dodgerblue;
   border-radius: 50%;
@@ -62,7 +63,7 @@ body {
 }
 
 .counter-status {
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: 2px;
   text-transform: uppercase
 }
@@ -84,7 +85,7 @@ body {
   padding: 70% 0 10% 0;
   background-color: transparent;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   outline: none;
   opacity: 0;
   transition: .4s;
@@ -98,15 +99,15 @@ body {
 
 @media (min-width:700px) {
   h1 {
-    font-size: 36px
+    font-size: 30px
   }
 
   .session,
   .break {
-    line-height: 30px;
+    line-height: 20px;
     border-radius: 50%;
     padding: 25px 20px;
-    font-size: 30px
+    font-size: 20px
   }
 
   .controls {

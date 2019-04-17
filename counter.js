@@ -95,8 +95,6 @@ const functionSessionTimer = () => {
   for (let arrow of arrows) {
     arrow.addEventListener("click", changeTime);
   }
-
-
 }
 
 functionSessionTimer();
