@@ -8,7 +8,7 @@ Shorter periods can be fine for studying notes and memorizing materials, but lon
 
 ## How it's working?
 
-1. Set the learning time (NAUKA).
+1. Set the study time (NAUKA).
 2. Set the break time (PRZERWA).
 3. Click on the main counter. Learning time is counting down. After each learning period there is a break.
 4. You can stop and resume counting by clicking on the main counter.
