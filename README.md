@@ -15,3 +15,6 @@ Shorter periods can be fine for studying notes and memorizing materials, but lon
 
 ** Do not spend more than an hour studying without having a break, because your brain gets tired and can’t give full attention to the subject. Make them quick breaks — just a couple minutes — so that you don’t lose your momentum. 
 Just give yourself enough time to take a drink, stretch out a bit, use the bathroom, do a quick calming exercise, or something similar.
+
+## Inspiration
+Zipline: Build a Pomodoro Clock on [https://www.freecodecamp.org](https://www.youtube.com/watch?v=lgj3nfzV0xM)
